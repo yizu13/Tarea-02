@@ -1,0 +1,31 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 28%;
+    left: 26%;
+}
+
+.img_foto{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.8s ease;
+}
+
+.imgBig{
+  scale: 1.2;
+}
+
+#h1{
+  transition: all 0.8s ease;
+}
+
+.h1{
+  margin-top: 2em;
+}

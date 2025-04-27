@@ -1,0 +1,30 @@
+#mainContent{
+    display: flex;
+    justify-content: start;
+    align-content:center;
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 55%;
+    height: 30em;
+    border-radius: 40px;
+    color: white;
+    box-shadow: 10px 10px 5px 0 rgb(0, 0, 0, 0.1);
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5em
+}
+
+.a_link{
+    color: gray;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.a_link_mod{
+    color: white;
+}

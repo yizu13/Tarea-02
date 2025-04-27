@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(300deg, #ffffff, #828282, #303030, #131313);
+    background-size: 240% 240%;
+    animation: gradient-animation 24s ease infinite;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+#header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px;
+    background-color: black;
+    height: 5rem;
+    width: 95%;
+    border-radius: 40px;
+}
+#links_page{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+    padding-top: 1em ;
+    margin-right: 3rem;
+    list-style-type: none;
+}
+
+.li_style{
+    width: auto;
+    height: 1em;
+    margin-right: 1.5em;
+    transition: all 0.3s ease;
+}
+
+.li_color{
+    color: gray;
+}
+
+.li_mod{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+}
+
+.img_head{
+    width: 83px;
+    height: auto;
+    margin-left: 2em;
+}
+
+.a_text{
+    text-decoration: none;
+}
+.a_img{
+    width: 20px
+}

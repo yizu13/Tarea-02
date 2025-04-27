@@ -1,0 +1,54 @@
+#contacts{
+    margin-top: 8em;
+}
+
+.Contact{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    width: 3%;
+    height: 3em;
+    margin-left: 35em;
+    margin-bottom: 1em ;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color:white;
+}
+
+.icon_style{
+    color: white;
+    width: 75%;
+    height: auto;
+    font-size: 220%;
+    margin-left: 0.17em;
+}
+
+.Contact_open{
+    width: 12%;
+}
+
+.p_syle{
+    color:white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 150%;
+    margin-right: 2em;
+    opacity: 1;
+    transition: all 2s ease;
+}
+
+.style_link{
+    text-decoration: none;
+}
+
+.removeCursor{
+    cursor: default;
+}
+
+p{
+    opacity: 0;
+}
