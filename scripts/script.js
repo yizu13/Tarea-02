@@ -28,13 +28,10 @@ list_button_li.map((element) => {
     if(currentWindow !== element.link){
     anchor_link.addEventListener('mouseleave', ()=>{
         anchor_link.classList.add('li_color');
-        anchor_link.classList.remove('li_mod')
+        anchor_link.classList.remove('li_mod');
     })
-    }else if (currentWindow === element.link){
-        anchor_link.classList.add('li_mod')
-    }
-    if(element.link === '/'){
-        anchor_link.classList.add('returnMain')
+    }if (currentWindow === element.link){
+        anchor_link.classList.add('li_mod');
     }
     anchor_link.appendChild(new_button);
     link_list.appendChild(anchor_link);
