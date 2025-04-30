@@ -30,7 +30,7 @@ list_button_li.map((element) => {
         anchor_link.classList.add('li_color');
         anchor_link.classList.remove('li_mod');
     })
-    }if (currentWindow === element.link){
+    }else{
         anchor_link.classList.add('li_mod');
     }
     anchor_link.appendChild(new_button);
