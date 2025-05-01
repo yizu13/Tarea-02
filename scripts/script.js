@@ -5,7 +5,7 @@ const currentWindow = window.location.pathname;
 const list_button_li = [{text: "Inicio", link: "/"}, 
     {text: "Datos personales", link: "/Datos_personales.html"},
     {text: "Pasatiempos", link: "/Pasatiempos.html"},
-    {text: "Contactos", link: "/Contactos.html"}
+    {text: "Contactos", link: "/Contactos.html"},
     ];
 
 list_button_li.map((element) => {

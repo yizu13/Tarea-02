@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: 200%;
     width: 42%;
     height: 8em;
@@ -24,7 +25,7 @@
     margin-left: 1em;
     margin-bottom: 2.5em;
     cursor: default;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .gradientText{
@@ -33,6 +34,12 @@
     animation: gradient-animation 18s ease infinite;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.textDefault{
+  position: absolute;
+  scale: 1;
+  transition: all 0.5s ease;
 }
   
   @keyframes gradient-animation {
@@ -49,4 +56,46 @@
 
 .card_big{
     scale: 1.2;
+}
+
+.changeText{
+  position: absolute;
+  margin-top: -3em;
+  scale: 0.5;
+}
+
+.desDiv{
+  color: transparent;
+  width: 11.3em;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  position: relative;
+  top: 3.5em;
+  border-radius: 0 0 40px 40px;
+  transition: all 0.3s ease-in;
+}
+
+.desDivMod{
+  color:white;
+  height: 4em;
+  bottom: 2em;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  width: 80%;
+  text-align: justify;
+  opacity: 0;
+  transition: all 0.3s ease;
+  margin-top: -5em;
+  flex-wrap: wrap;
+}
+
+.textMod{
+  opacity: 1;
 }
